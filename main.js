@@ -17,7 +17,6 @@ $(()=>{
         $("#save").on("click", () => {
             $(event.target).removeClass("available");
             $(event.target).addClass("reserved");
-            $(event.target).prop("disabled", true);
             //$("#form").removeClass("show");
             //$("#form").addClass("hide");
             $('#form').attr('class', 'hide');
