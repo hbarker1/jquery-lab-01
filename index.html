@@ -16,44 +16,37 @@
 
     </div>
 
-    <div class="table">
+    <div class="tables">
         <div class="row">
-        <div class="circle-1">1</div>
-        <div class="circle-2">2</div>
-        <div class="circle-3">3</div>
+        <button type="button" id="one" class="table">1</button>
+        <button type="button" id="two" class="table">2</button>
+        <button type="button" id="three" class="table">3</button>
         </div>
         <div class="row">
-        <div class="circle-4">4</div>
-        <div class="circle-5">5</div>
-        <div class="circle-6">6</div>
+        <button type="button" id="four" class="table">4</button>
+        <button type="button" id="five" class="table">5</button>
+        <button type="button" id="six" class="table">6</button>
     </div>
     <div class="row">
-        <div class="circle-4">7</div>
-        <div class="circle-5">8</div>
-        <div class="circle-6">9</div>
+        <button type="button" id="seven" class="table">7</button>
+        <button type="button" id="eight" class="table">8</button>
+        <button type="button" id="nine" class="table">9</button>
     </div>
     </div>
-
-    <div class="form">
+<!-- hide -->
+    <div id="form" class="hide"> 
         <h1 id ="title-2">New Reservation</h1>
-        <p id ="table-number">Table Number:</p>
-        <input class="input" id="name" type="text" required>
-        <input class="input" id="number" type="text" required>
-        <select class="input" id="guest-number-input" required>                         
-            <option value="0">Select number of guests</option>                         
-            <option value="1">1</option>                         
-            <option value="2">2</option>                         
-            <option value="3">3</option>                         
-            <option value="4">4</option>                         
-            <option value="5">5</option>                         
-            <option value="6">6</option>                         
-            <option value="7">7</option>                         
-            <option value="8">8</option>                         
-            <option value="9">9</option>                         
-            <option value="10">10</option>                     
-        </select>
-        
-        <button type="button">Save</button>
+        <p id ="table-header">Table Number: <span id="table-number"> 1</span></p>
+        <div class="input-container">
+        <input class="input" id="name" type="text" placeholder="Name" required>
+        <input class="input" id="number" type="text" placeholder="Phone Number"required>
+        <input class="input" id="group" placeholder="Group Size" required>                         
+            
+        <button type="button" id="save">Save</button>
+
+        <button id="exit-button">Cancel</button>
+
+        </div>
 
 
 
