@@ -4,6 +4,10 @@ $(()=>{
         $("#form").removeClass("hide");
         $("#form").addClass("show");
         
+
+
+
+
         let tableNumber = (event.target.firstChild.data);
         $("#table-number").text(tableNumber);
 

@@ -83,6 +83,19 @@ p {
 
 }
 
+
+.available {
+    cursor: pointer;
+    background-color: #EEE;
+}
+
+.reserved {
+    cursor: not-allowed;
+    background-color: #ADAAAA;
+    color: white;
+}
+
+
 #form {
    
     margin: 10px;
@@ -133,7 +146,7 @@ button {
 #exit-button {
     border-radius: 2%;
     margin-top: 5px;
-    height: 30px
+    height: 30px;
     color: white;
     background-color: grey;
 }
